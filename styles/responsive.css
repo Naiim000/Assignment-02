@@ -48,22 +48,31 @@
     main{
         padding: 20px 30px;
     }
+    main{
+        padding: 20px 30px;
+    }
     .banner{
         flex-direction :column-reverse;
+        padding: 10px;
         
        
     }
-    .goat{
-       width: auto;
-       margin: 2px auto;
-       
-
-        
-    }
+   
 
     .banner-img  {
         width: 100%;
     }
+    .banner-img img{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .goat{
+        width: auto;
+        margin: 2px auto;
+        
+ 
+         
+     }
 
     .banner h3 {
         color: #0B0223;
@@ -115,8 +124,77 @@
         margin-top: 20px;
     }
 
-    .gammer{
+  
+    .gamer{
         flex-direction: column;
+        padding: 20px ;
+        background: none;
+    }
+    .gamer-img {
+        width: 100%;
+    margin: 0px;
+        
+    }
+    .gamer-img img {
+        width: 100%;
+        
+    }
+    
+.gamer-container {
+     width: auto;
+    text-align: center;
+    display:block ;
+    justify-content: center;
+    align-items: center;
+
+}
+    .gamer-title {
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 35px;
+        font-weight: 700;
+        padding: 10px;
+        margin-bottom: 0px;
+       
+    
+    }
+    .gamer-description {
+        color: #534C64;
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 15px;
+        padding: 10px;
+    
+    }
+
+    .know{
+        border-radius: 48px;
+    background:  #FF42A5 ;
+    padding: 10px 20px;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 0px;
+    margin: 10px 0px;
+    }
+    #our{
+        color: #534C64;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-top: 0px;
+        
+    }
+    #unleash{
+        color: #534C64;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 70px;
+        
     }
     
 

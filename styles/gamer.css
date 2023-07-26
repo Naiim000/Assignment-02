@@ -88,12 +88,13 @@ nav {
 
 .banner {
     display: flex;
-    background: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    
     padding:0px 240px ;
 }
 
 .goat {
     width: 50%;
+    background: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
 }
 
 .banner h3 {
@@ -157,10 +158,12 @@ nav {
 
 .banner-img {
     width: 50%;
+    margin-left: 10px;
 }
 
 .banner-img img {
     width: 100%;
+    
 }
 
 /* we are gamer section */
@@ -168,6 +171,7 @@ nav {
     display: flex;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     padding:0px 240px ;
+}
 
 
 .gamer-img {
